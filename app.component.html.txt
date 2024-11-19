@@ -1,0 +1,6 @@
+<div class="app">
+  <app-product-category
+    (addToCart)="onAddToCart($event)"
+  ></app-product-category>
+  <app-cart></app-cart>
+</div>
