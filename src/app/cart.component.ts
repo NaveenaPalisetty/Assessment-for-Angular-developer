@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { CartService } from './cart.service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-cart',
+  imports: [FormsModule],  // Add FormsModule here
   templateUrl: './cart.component.html',
   styleUrls: ['./cart.component.css'],
 })

@@ -72,7 +72,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "styles.css"
+              "src/styles.css"
             ],
             "scripts": [],
             "assets": [
@@ -96,5 +96,8 @@
       }
     }
   },
-  "defaultProject": "demo"
+  "defaultProject": "demo",
+  "cli": {
+    "analytics": "8cbd16dc-8497-4d78-91f1-8033d2c366d4"
+  }
 }

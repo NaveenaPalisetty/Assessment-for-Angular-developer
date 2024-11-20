@@ -1,4 +1,6 @@
-@import './src/app/styles.css';
+@import 'src/styles.css';
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -60,3 +62,4 @@ input {
     flex-direction: column;
   }
 }
+
