@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Angular App</title>
+  </head>
+  <body>
+  <my-app>
+  <div class="app">
+    <app-product-category
+      (addToCart)="onAddToCart($event)"
+    ></app-product-category>
+    <app-cart></app-cart>
+  </div>
+</my-app>
+
+  </body>
+</html>
